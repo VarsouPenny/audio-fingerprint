@@ -1,4 +1,4 @@
 # audio-fingerprint
 ## Authors:
-Gkatsis Vasilis
-Varsou Penny
+> Gkatsis Vasilis
+> Varsou Penny
