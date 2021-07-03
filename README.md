@@ -27,6 +27,8 @@ base their algorithms on this technique [2].<br />
 This study investigates Dejavu by addressing the following
 research questions:<br />
 • How does Dejavu perform in identifying songs in 
-diffenent databes with different volumn of songs, through diffent time queries.<br />
+diffenent databes with different volumn of songs, through diffent time queries?<br />
 • How does Dejavu perform in identifing songs throught microphone?<br />
 • How does Dejavu perform in diffent time queries with distinct noise level?<br />
+
+
