@@ -6,7 +6,7 @@
 ## Abstract
 In this project we use [devaju](https://willdrevo.com/fingerprinting-and-audio-recognition-with-python/) which is an audio fingerprinting and recognition algorithm implemented in Python.
 Dejavu can memorize audio by listening to it once and fingerprinting it. Then by playing a song and recording microphone input or reading from disk, Dejavu attempts to match the audio against the fingerprints held in the database, returning the song being played. 
-This project tests the performance of Dejavu audio fingerprinting framework in diffenent databases, either from Disk and from microphone.
+This project tests the performance of Dejavu audio fingerprinting framework in diffenent databases, either on Disk and through a microphone.
 
 ## Introduction
 
@@ -24,3 +24,9 @@ technique for music identification in challenging conditions
 and demanding contexts, which is likely the reason why many
 popular music identification platforms, such as Shazam [3],
 base their algorithms on this technique [2].
+This study investigates Dejavu by addressing the following
+research questions:
+• How does Dejavu perform in identifying songs in
+diffenent databes with different volumn of songs., through diffent time queries.
+• How can Dejavu identify songs throught microphone?
+• How does Dejavu perform in diffent time queries with distinct noise level?
