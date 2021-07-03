@@ -30,6 +30,7 @@ diffenent databes with different volumn of songs, through diffent time queries?<
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Methods
+### Dejavu
 Dejavu is an open-source audio fingerprinting framework
 written in Python. The following section provides a brief
 overview of the framework’s identification pipeline as well
@@ -56,3 +57,58 @@ hashes matched relatively to the entire song in the database.
 This means that if we input 10 seconds out of a 20 seconds
 long song, and it is matched perfectly, the fingerprinted confidence would be 0.5. Dejavu’s implementation was designed
 to always return a match, regardless of the confidence coefficients.
+Considering this pipeline, the framework’s capabilities
+can be roughly classified into two main tasks: remembering a song by fingerprinting it and storing its metadata and
+analysing a queried song by fingerprinting it and comparing
+these fingerprints to the database to retrieve the best match.
+Both of these tasks make use of the same audio fingerprinting
+procedure.
+#### Fingerprinting
+The purpose of audio fingerprinting is to reduce the dimensionality of audio files such that they can be stored and compared more efficiently. However, to allow for these benefits,
+unique perceptual features must be preserved as well as possible. Dejavu’s fingerprinting mechanism operates under this
+requirement, as it gradually decomposes the signal until a
+compact fingerprint of such nature can be formed.
+To ready the audio for preprocessing, it is first discretised by
+sampling. By default, Dejavu samples the signal with a frequency of 44.1 kHz, meaning that 44,100 samples of the signal are extracted per second. This choice of this frequency
+is justified using the Nyquist-Shannon sampling theorem, according to which the signal should be sampled at double the
+maximum frequency we aim to capture. Since humans generally cannot hear frequencies above 20,000 Hz, the maximum
+frequency was established at 22,050 Hz, such that no humanaudible frequencies would be missed when sampling. Using
+the theorem, Dejavu’s default sampling frequency is double
+the maximum frequency, or numerically, 2 * 22,050 = 44100
+Hz. <br />
+After preprocessing, Dejavu generates a frequency domain
+representation of the given audio file by applying Fast Fourier
+Transform (FFT) to overlapping windows across the signal [9]. This approach is identical to the extraction technique
+described by Haitsma and Kalker [4], where they motivate
+this choice by reasoning that the most perceptually significant audio qualities are present in the frequency domain. The
+transformed windows are combined such that they form a frequency spectrogram of the entire audio file.
+The X-axis of the spectrogram represents time relative to
+the audio file, and the Y-axis represents the frequency values. With that, each pixel within the spectrogram image corresponds to a given time-frequency pair. The colour of this
+pixel indicates the amplitude of a given frequency at the corresponding time. These spectrograms are then used to extract
+the features that will constitute the fingerprint.<br />
+The peak finding algorithm chooses the time-frequency pair
+coordinate corresponding to an amplitude value that is greater
+than the amplitudes of its local neighbouring points. This
+strategy is based on the fact that these high amplitude frequencies are more likely to survive distortion than the low
+amplitude frequencies around them. Dejavu uses the image
+of the spectrogram and analyses its pixels to find these peaks. <br />
+Specifically, it first applies a high pass filter that emphasises
+the high amplitude points, and then it extracts the local maxima, which ultimately become the noise-resistant peaks.
+Depending on the frequency composition, the number of
+peaks can range between thousands to tens of thousands per
+song. However, despite this amount of data, peak extraction
+stores only a subset of information unique to the song. The
+rest of the information is discarded, which directly increases
+the likelihood of peaks of different songs being similar or
+even identical. If the framework was to match tracks based
+on the extracted peaks, there would likely be many collisions
+and incorrect matches. To avoid these collisions as much as
+possible, Dejavu encapsulates the peaks in the fingerprint using a hash function.
+The peaks are combined into a fingerprint using a hash function. The hash functions used here take a number as input and
+return a number as output. A good hash function will always
+return the same output for a given input. In addition, it should
+also ensure that only a few distinct inputs will be hashed into
+the same output.
+Given a set of peaks and the time differences between
+them, Dejavu creates several hashes, which constitute the
+unique fingerprints for the particular track [10].
