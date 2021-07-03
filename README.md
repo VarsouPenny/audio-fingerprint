@@ -8,7 +8,6 @@ In this project we use [devaju](https://willdrevo.com/fingerprinting-and-audio-r
 Dejavu can memorize audio by listening to it once and fingerprinting it. Then by playing a song and recording microphone input or reading from disk, Dejavu attempts to match the audio against the fingerprints held in the database, returning the song being played. 
 
 ## Introduction
-
 Audio fingerprinting is a music information retrieval technique well known for its capabilities in music identification.
 One of the main advantages of an audio fingerprint is its
 compactness. A fingerprint compresses perceptual information from an audio file into a numeric sequence that is much
@@ -28,5 +27,6 @@ research questions:<br />
 diffenent databes with different volumn of songs, through diffent time queries?<br />
 • How does Dejavu perform in identifing songs throught microphone?<br />
 • How does Dejavu perform in diffent time queries with distinct noise level?
------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 ## Methods
