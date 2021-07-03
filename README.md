@@ -3,6 +3,24 @@
 > Gkatsis Vasilis and
 > Varsou Penny
 -------------------------------------------------------------------------------------------------------------
-## Overview
+## Abstract
 In this project we use [devaju](https://willdrevo.com/fingerprinting-and-audio-recognition-with-python/) which is an audio fingerprinting and recognition algorithm implemented in Python.
-Dejavu can memorize audio by listening to it once and fingerprinting it. Then by playing a song and recording microphone input or reading from disk, Dejavu attempts to match the audio against the fingerprints held in the database, returning the song being played.
+Dejavu can memorize audio by listening to it once and fingerprinting it. Then by playing a song and recording microphone input or reading from disk, Dejavu attempts to match the audio against the fingerprints held in the database, returning the song being played. 
+This project tests the performance of Dejavu audio fingerprinting framework in diffenent databases, either from Disk and from microphone.
+
+## Introduction
+
+Audio fingerprinting is a music information retrieval technique well known for its capabilities in music identification.
+One of the main advantages of an audio fingerprint is its
+compactness. A fingerprint compresses perceptual information from an audio file into a numeric sequence that is much
+shorter than the original waveform data. With this, the comparison of different audio files becomes more efficient and
+effective in the fingerprint domain. Audio fingerprinting
+is also known for its robustness to distortions. The extracted
+features that are eventually summarised in form of the fingerprint are ”as robust as possible to typical distortions to typical
+distortions” [2, p. 3], such as those that arise from imperfect
+transmission channels or background noise.
+Both of these features make audio fingerprinting a suitable
+technique for music identification in challenging conditions
+and demanding contexts, which is likely the reason why many
+popular music identification platforms, such as Shazam [3],
+base their algorithms on this technique [2].
