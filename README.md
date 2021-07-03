@@ -30,3 +30,29 @@ diffenent databes with different volumn of songs, through diffent time queries?<
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Methods
+Dejavu is an open-source audio fingerprinting framework
+written in Python. The following section provides a brief
+overview of the framework’s identification pipeline as well
+as a more detailed review of its implementation and performance.
+The music identification pipeline of Dejavu strongly resembles the basic scenario described in the ’Identification’ usage
+model by Cano and Batlle [1].
+Specifically, Dejavu first ‘memorises’ songs by extracting their fingerprints and storing them in a database. The
+database also contains a table with the songs’ metadata which
+is linked to their corresponding fingerprints. After populating
+the database, recognition can be done by querying the audio
+to be identified. Dejavu first extracts the fingerprints from
+the input and then compares them to the database to find the
+best-matching set of fingerprints. Finally, it outputs the metadata of songs from the database that was found to have the
+best matching fingerprints. As a result, Dejavu returns a list
+of songs that were matched. The result contains the match
+name and query time, as well as more technical details that
+would normally not be of interest to the user. The ranking of
+a match among other results is determined by the input confidence. This coefficient represents the percentage of the input
+that was matched to the given result. For example, if our input was completely accurately matched to a given result, the
+input confidence would be 1.0. The higher this coefficient is,
+the higher the particular result ranks. Dejavu also calculates
+fingerprinted confidence, which represents the number of the
+hashes matched relatively to the entire song in the database.
+This means that if we input 10 seconds out of a 20 seconds
+long song, and it is matched perfectly, the fingerprinted confidence would be 0.5. Dejavu’s implementation was designed
+to always return a match, regardless of the confidence coefficients.
