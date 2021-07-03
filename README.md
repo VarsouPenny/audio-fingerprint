@@ -112,3 +112,37 @@ the same output.
 Given a set of peaks and the time differences between
 them, Dejavu creates several hashes, which constitute the
 unique fingerprints for the particular track [10].
+#### Configurable parameters
+Based on the manual written for Dejavu, several parameters
+can be configured. The overview of parameters and their effects is available in Table 3.
+Most of the configurable parameters present similar tradeoffs. If they are set such that more information is stored, the
+fingerprints take up more storage space and the matching will
+be more computationally expensive. The upside to such configuration, however, would be better accuracy in matching, as
+there will likely be fewer collisions of different songs in terms
+of identical or similar fingerprints.
+Knowing the parameters and their trade-offs, it may be possible to configure these parameters to improve the benchmark
+score based on its results.
+#### Performance
+##### Recall
+The developer of Dejavu has tested the framework in different
+experimental setups. Perhaps the experiment most significant
+for this research was the one testing microphone-recorded
+queries that were captured in the presence of humming and
+talking. The results showed that with only 1 second of a random part of the song, Dejavu can identify it correctly in 60%
+of the cases. Queries with lengths between 2 and 4 seconds
+were identified with recall above 95%. In the last two test
+categories of 5 and 6 seconds, all queries were identified correctly [10].
+Given that these queries were noisy and still identified correctly by Dejavu, there is a reason to expect the framework
+to provide satisfactory performance when tested against the
+noise categories in the benchmark.
+##### Implementation speed
+In terms of fingerprinting, the performance bottleneck is the
+peak finding stage. However, according to the developer, the
+matching time that resulted from an experiment on one song
+with different query lengths was linear. The equation of the
+linear regression showed that matching time takes approximately 3-times as long as reading the song, with a small constant overhead [10].
+Generally, it is advised to make use of a local database, as
+this decreases latency in the total time of querying as opposed
+to using remote storage.
+## Results
+
