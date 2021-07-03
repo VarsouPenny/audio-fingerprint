@@ -26,7 +26,7 @@ popular music identification platforms, such as Shazam [3],
 base their algorithms on this technique [2].
 This study investigates Dejavu by addressing the following
 research questions:
-• How does Dejavu perform in identifying songs in
-diffenent databes with different volumn of songs., through diffent time queries.
-• How can Dejavu identify songs throught microphone?
-• How does Dejavu perform in diffent time queries with distinct noise level?
+• How does Dejavu perform in identifying songs in 
+diffenent databes with different volumn of songs, through diffent time queries.<br />
+• How can Dejavu identify songs throught microphone?<br />
+• How does Dejavu perform in diffent time queries with distinct noise level?<br />
