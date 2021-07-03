@@ -145,4 +145,7 @@ Generally, it is advised to make use of a local database, as
 this decreases latency in the total time of querying as opposed
 to using remote storage.
 ## Results
-
+In this project we set up locally 3 distict databases:
+-  1st database has 100 songs
+-  2nd database has 1000 songs
+-  3rd database has 5900 songs
