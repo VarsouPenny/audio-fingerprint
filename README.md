@@ -6,7 +6,6 @@
 ## Abstract
 In this project we use [devaju](https://willdrevo.com/fingerprinting-and-audio-recognition-with-python/) which is an audio fingerprinting and recognition algorithm implemented in Python.
 Dejavu can memorize audio by listening to it once and fingerprinting it. Then by playing a song and recording microphone input or reading from disk, Dejavu attempts to match the audio against the fingerprints held in the database, returning the song being played. 
-This project tests the performance of Dejavu audio fingerprinting framework in diffenent databases, either on Disk and through a microphone.
 
 ## Introduction
 
@@ -16,8 +15,7 @@ compactness. A fingerprint compresses perceptual information from an audio file 
 shorter than the original waveform data. With this, the comparison of different audio files becomes more efficient and
 effective in the fingerprint domain. Audio fingerprinting
 is also known for its robustness to distortions. The extracted
-features that are eventually summarised in form of the fingerprint are ”as robust as possible to typical distortions to typical
-distortions” [2, p. 3], such as those that arise from imperfect
+features that are eventually summarised in form of the fingerprint are ”as robust as possible to typical distortions" [2, p. 3], such as those that arise from imperfect
 transmission channels or background noise.
 Both of these features make audio fingerprinting a suitable
 technique for music identification in challenging conditions
@@ -29,6 +27,6 @@ research questions:<br />
 • How does Dejavu perform in identifying songs in 
 diffenent databes with different volumn of songs, through diffent time queries?<br />
 • How does Dejavu perform in identifing songs throught microphone?<br />
-• How does Dejavu perform in diffent time queries with distinct noise level?<br />
-
-
+• How does Dejavu perform in diffent time queries with distinct noise level? <br />
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+## Methods
