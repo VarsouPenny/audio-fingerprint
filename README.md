@@ -23,9 +23,9 @@ Both of these features make audio fingerprinting a suitable
 technique for music identification in challenging conditions
 and demanding contexts, which is likely the reason why many
 popular music identification platforms, such as Shazam [3],
-base their algorithms on this technique [2].
+base their algorithms on this technique [2].<br />
 This study investigates Dejavu by addressing the following
-research questions:
+research questions:<br />
 • How does Dejavu perform in identifying songs in 
 diffenent databes with different volumn of songs, through diffent time queries.<br />
 • How can Dejavu identify songs throught microphone?<br />
