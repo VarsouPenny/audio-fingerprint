@@ -31,7 +31,7 @@ diffenent databases with different amount of songs, through diffent time queries
 ------------------------------------------------------------------------------------------------------------------------------
 ## Methods
 ### Dejavu
-Dejavu is an open-source audio fingerprinting framework
+[Devaju](https://willdrevo.com/fingerprinting-and-audio-recognition-with-python/) is an open-source audio fingerprinting framework
 written in Python. The following section provides a brief
 overview of the framework’s identification pipeline as well
 as a more detailed review of its implementation and performance.
