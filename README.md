@@ -151,3 +151,4 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 -  3rd database has 5900 songs
 ### Test evaluation and performance with different time queries
 In the first database we generate queries with distinct duration from 100 songs (1sec, 2sec, 3sec, 4sec, 5sec).
+![Matching Perc 1sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png)
