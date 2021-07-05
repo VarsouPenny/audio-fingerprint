@@ -161,4 +161,10 @@ In the second database (1000 songs) we generate queries with distinct duration f
 ![Matching Perc 2sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_2sec.png)
 ![Matching Perc 3sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_3sec.png)
 ![Matching Perc 4sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_4sec.png)
-![Matching Perc 5sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_5sec.png)
+![Matching Perc 5sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_5sec.png) <br />
+In the second database (5800 songs) we generate queries with distinct duration from 1900 songs (1sec, 2sec, 3sec, 4sec, 5sec).
+![Matching Perc 1sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_1sec.png)
+![Matching Perc 2sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_2sec.png)
+![Matching Perc 3sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_3sec.png)
+![Matching Perc 4sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_4sec.png)
+![Matching Perc 5sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_5sec.png) <br />
