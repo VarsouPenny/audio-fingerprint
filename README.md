@@ -149,4 +149,5 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 -  1st database has 100 songs
 -  2nd database has 1000 songs
 -  3rd database has 5900 songs
+### Test evaluation and performance with different time queries
 In the first database we generate queries with distinct duration from 100 songs (1sec, 2sec, 3sec, 4sec, 5sec).
