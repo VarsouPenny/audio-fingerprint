@@ -145,7 +145,8 @@ Generally, it is advised to make use of a local database, as
 this decreases latency in the total time of querying as opposed
 to using remote storage.
 ## Results
-Three local MySQL databases was used to store the fingerprintsand their corresponding metadata: <br />
+Three local MySQL databases were used to store the fingerprintsand their corresponding metadata: <br />
 -  1st database has 100 songs
 -  2nd database has 1000 songs
 -  3rd database has 5900 songs
+In the first database we generate queries with distinct duration from 100 songs (1sec, 2sec, 3sec, 4sec, 5sec).
