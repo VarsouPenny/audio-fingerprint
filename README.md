@@ -297,6 +297,5 @@ We created four different kinds of noise, the first one pink noise with level 1,
   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_5sec.png" width=350 height=250></td>
   </tr>
   </table>
-  
-  
+    
 According to our results, recognition specifically in cases of noise needs longer query duration.
