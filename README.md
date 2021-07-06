@@ -231,6 +231,7 @@ We created four different kinds of noise, the first one pink noise with level 1,
   </tr>
   </table>
   <br />
+  
 #### Results for 2 sec query with different noise levels
  <table>
   <tr>
