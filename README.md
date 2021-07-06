@@ -213,4 +213,5 @@ In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with dis
  </table>
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
-#### Test evaluation and performance with diffent time queries and distinct noise level
+### Test evaluation and performance with diffent time queries and distinct noise level
+We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6.
