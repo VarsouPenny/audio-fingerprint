@@ -214,4 +214,18 @@ In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with dis
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
-We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6.
+We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6. We run our test in database with 100 songs.
+
+    <table>
+  <tr>
+    <td>Matching 1sec with noise level 1</td>
+     <td>Matching 1sec with noise level 2</td>
+     <td>Matching 1sec with noise level 3</td>
+  <td>Matching 1sec with noise level 6</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_1sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_1sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_1sec.png" width=400 height=250></td>
+  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_1sec.png" width=400 height=250></td>
+  </tr>
