@@ -212,4 +212,5 @@ In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with dis
   </tr>
  </table>
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
+
 #### Test evaluation and performance with diffent time queries and distinct noise level
