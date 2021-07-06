@@ -232,7 +232,7 @@ We created four different kinds of noise, the first one pink noise with level 1,
   </table>
   <br />
 #### Results for 2 sec query with different noise levels
-  <table>
+ <table>
   <tr>
     <td>Matching 2sec with noise level 1</td>
      <td>Matching 2sec with noise level 2</td>
