@@ -148,19 +148,19 @@ to using remote storage.
 Three local MySQL databases were used to store the fingerprintsand their corresponding metadata: <br />
 -  1st database has 100 songs
 -  2nd database has 1000 songs
--  3rd database has 5900 songs
+-  3rd database has 5800 songs
 ### Test evaluation and performance with different time queries
-In the first database(100 songs) we generate queries with distinct duration from 100 songs (1sec, 2sec, 3sec, 4sec, 5sec).
+In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with distinct duration 1sec, 2sec, 3sec, 4sec and 5sec for 100, 450 songs and 1400 songs.
 <table>
   <tr>
-    <td>Matching Perc 1sec</td>
-     <td>Matching Perc 2sec</td>
-     <td>Matching Perc 3sec</td>
+    <td>Matching 1sec in 1st db</td>
+     <td>Matching 1sec in 2nd db</td>
+     <td>Matching 1sec in 3rd db</td>
   </tr>
   <tr>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_1sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_1sec.png" width=400 height=250></td>
   </tr>
  </table>
 ![Matching Perc 1sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png)![Matching Perc 2sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png)
