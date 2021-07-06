@@ -151,6 +151,18 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 -  3rd database has 5900 songs
 ### Test evaluation and performance with different time queries
 In the first database(100 songs) we generate queries with distinct duration from 100 songs (1sec, 2sec, 3sec, 4sec, 5sec).
+<table>
+  <tr>
+    <td>Matching Perc 1sec</td>
+     <td>Matching Perc 2sec</td>
+     <td>Matching Perc 3sec</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png" width=270 height=480></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png" width=270 height=480></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png" width=270 height=480></td>
+  </tr>
+ </table>
 ![Matching Perc 1sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png)![Matching Perc 2sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png)
 ![Matching Perc 3sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png)
 ![Matching Perc 4sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_4sec.png)
