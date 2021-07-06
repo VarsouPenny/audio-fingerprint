@@ -264,3 +264,36 @@ We created four different kinds of noise, the first one pink noise with level 1,
   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_3sec.png" width=350 height=250></td>
   </tr>
   </table>
+  
+    
+#### Results for 4 sec query with different noise levels
+ <table>
+  <tr>
+    <td>Matching 4sec with noise level 1</td>
+     <td>Matching 4sec with noise level 2</td>
+     <td>Matching 4sec with noise level 3</td>
+  <td>Matching 4ec with noise level 6</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_4sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_4sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_4sec.png" width=350 height=250></td>
+  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_4sec.png" width=350 height=250></td>
+  </tr>
+  </table>
+  
+  #### Results for 5 sec query with different noise levels
+ <table>
+  <tr>
+    <td>Matching 5sec with noise level 1</td>
+     <td>Matching 5sec with noise level 2</td>
+     <td>Matching 5sec with noise level 3</td>
+  <td>Matching 5sec with noise level 6</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_5sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_5sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_5sec.png" width=350 height=250></td>
+  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_5sec.png" width=350 height=250></td>
+  </tr>
+  </table>
