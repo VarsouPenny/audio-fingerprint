@@ -158,9 +158,9 @@ In the first database(100 songs) we generate queries with distinct duration from
      <td>Matching Perc 3sec</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png" width=350 height=200></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png" width=350 height=200></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png" width=350 height=200></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png" width=400 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png" width=400 height=250></td>
   </tr>
  </table>
 ![Matching Perc 1sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png)![Matching Perc 2sec](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png)
