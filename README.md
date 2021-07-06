@@ -272,7 +272,7 @@ We created four different kinds of noise, the first one pink noise with level 1,
     <td>Matching 4sec with noise level 1</td>
      <td>Matching 4sec with noise level 2</td>
      <td>Matching 4sec with noise level 3</td>
-  <td>Matching 4ec with noise level 6</td>
+  <td>Matching 4sec with noise level 6</td>
   </tr>
   <tr>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_4sec.png" width=350 height=250></td>
