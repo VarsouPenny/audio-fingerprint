@@ -211,4 +211,4 @@ In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with dis
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_5sec.png" width=400 height=250></td>
   </tr>
  </table>
-According to our results if databases 
+Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.
