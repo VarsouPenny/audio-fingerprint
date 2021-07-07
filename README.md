@@ -221,6 +221,8 @@ According to all the above we came to the conclusion that Dejavu accuracy effect
 Last but not least we test Dejavu with microphone.
 We run tests for 50 songs with queries duration 5secs, 10secs, 15secs and 20secs.
 Bellow we have an array which summarizes our results.
+
+
           | 5 secs        | 10 secs       | 15 secs       | 20 secs       |
           | ------------- | ------------- | ------------- | ------------- |
  | VALID  | 10            | 20            | 18            | 21            |
