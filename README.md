@@ -160,49 +160,28 @@ Based on our results, we can conclude that on bases with fewer songs the predict
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
 We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6. We run our test in database with 100 songs.
-#### Results for 1 sec query with different noise levels
+#### Results for queries with different noise levels
  <table>
   <tr>
     <td>Matching 1 sec with noise levels</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=500 height=500></td>
-  </tr>
-  </table>  
-  
-#### Results for 2 sec query with different noise levels
- <table>
-  <tr>
     <td>Matching 2 sec with noise levels</td>
   </tr>
   <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=500 height=500></td>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_noise_sec_matching.png" width=500 height=500></td>
   </tr>
-  </table> 
+  </table>  
 
-  
-#### Results for 3 sec query with different noise levels
   <table>
   <tr>
     <td>Matching 3 sec with noise levels</td>
+   <td>Matching 4 sec with noise levels</td>
   </tr>
   <tr>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_noise_sec_matching.png" width=500 height=500></td>
-  </tr>
-  </table> 
-  
-    
-#### Results for 4 sec query with different noise levels
- <table>
-  <tr>
-    <td>Matching 4 sec with noise levels</td>
-  </tr>
-  <tr>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_noise_sec_matching.png" width=500 height=500></td>
   </tr>
   </table> 
-  
-  #### Results for 5 sec query with different noise levels
   <table>
   <tr>
     <td>Matching 5 sec with noise levels</td>
