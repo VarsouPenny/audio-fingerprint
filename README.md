@@ -214,4 +214,7 @@ We also plot the confidence for every different level of noise.
    
   </tr>
   </table>
+  
 According to all the above we came to the conclusion that Dejavu accuracy effected mainly by the duration of the song that we want to identify and not so much by the level of noise.
+
+### Test evaluation and performance with diffent time queries with microphone
