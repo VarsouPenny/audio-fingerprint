@@ -151,66 +151,7 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 -  3rd database has 5800 songs
 ### Test evaluation and performance with different time queries
 In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with distinct duration 1sec, 2sec, 3sec, 4sec and 5sec for 100, 490 songs and 1400 songs.
-<table>
-  <tr>
-    <td>Matching 1sec in 1st db</td>
-     <td>Matching 1sec in 2nd db</td>
-     <td>Matching 1sec in 3rd db</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_1sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_1sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_1sec.png" width=400 height=250></td>
-  </tr>
- </table>
- <table>
-  <tr>
-    <td>Matching 2sec in 1st db</td>
-     <td>Matching 2sec in 2nd db</td>
-     <td>Matching 2sec in 3rd db</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_2sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_2sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_2sec.png" width=400 height=250></td>
-  </tr>
- </table>
-  <table>
-  <tr>
-    <td>Matching 3sec in 1st db</td>
-     <td>Matching 3sec in 2nd db</td>
-     <td>Matching 3sec in 3rd db</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_3sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_3sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_3sec.png" width=400 height=250></td>
-  </tr>
- </table>
-   <table>
-  <tr>
-    <td>Matching 4sec in 1st db</td>
-     <td>Matching 4sec in 2nd db</td>
-     <td>Matching 4sec in 3rd db</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_4sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_4sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_4sec.png" width=400 height=250></td>
-  </tr>
- </table>
-    <table>
-  <tr>
-    <td>Matching 5sec in 1st db</td>
-     <td>Matching 5sec in 2nd db</td>
-     <td>Matching 5sec in 3rd db</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_100/matching_perc_5sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_1000/matching_perc_5sec.png" width=400 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_5800/matching_perc_5sec.png" width=400 height=250></td>
-  </tr>
- </table>
+![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1sec_matching.png)
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
