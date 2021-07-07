@@ -225,7 +225,6 @@ Bellow we have an array which summarizes our results.
 
             5 secs         10 secs         15 secs         20 secs      
  
-   VALID         10             20              18              21 
-   
-  INVALID        39             29              31              28            
+      VALID      10             20              18              21    
+    INVALID      39             29              31              28            
 
