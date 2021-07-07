@@ -230,5 +230,24 @@ Bellow we have an array which summarizes our results.
     
     
  ![Microphone Maching](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/mic_matching.png)
+ 
+ 
+ ## Conclusion and Future Work
+ 
+ In this paper, we analysed the performance of an open-source
+audio fingerprinting framework, Dejavu, in songs identification with data synthesised to simulate the appropriate conditions. In evaluation against the collective benchmark for  songs identification with audio fingerprinting, Dejavu measured up to the expectations derived from its
+implementation and prior testing performance. In addition, its
+configuration was further optimised to target its weaknesses,
+namely its performance in pitch shifting. This yielded a configuration superior to the default one in terms of the benchmark.
+To advance even further in the investigation of Dejavu’s
+optimal configuration, the confidence thresholds should be
+examined and tested with precision higher than two decimal
+places, as this accuracy may not provide enough detail to determine the match correctness. Furthermore, the time offset
+of identification relative to the input should be analysed in
+order to pinpoint the exact parts of the noise that are easier
+or more difficult to identify. In addition, query time appears
+to have no correlation with the other metrics. To better understand the inner workings of the matching algorithm, it is
+recommended to be examined in more detail.
+
     
 
