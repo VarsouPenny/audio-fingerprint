@@ -251,5 +251,25 @@ or more difficult to identify. In addition, query time appears
 to have no correlation with the other metrics. To better understand the inner workings of the matching algorithm, it is
 recommended to be examined in more detail.
 
+## References
+[1] P. Cano and E. Batlle, “A review of audio fingerprinting,” Journal of VLSI Signal Processing, vol. 41,
+pp. 271–284, 11 2005.
+[2] R. Typke, F. Wiering, and R. Veltkamp, “A survey of
+music information retrieval systems,” p. 153–160, Jan
+2005.
+[3] A. Wang, “An industrial strength audio search algorithm.,” Jan 2003.
+[4] J. Haitsma and T. Kalker, “A highly robust audio fingerprinting system with an efficient search strategy,” Journal of New Music Research, vol. 32, p. 211–221, Jun
+2003.
+[5] “Muziekweb - the music library of the netherlands.”
+[6] C. Hildebrand, T. Huisman, R. Nair, N. Struharova, and ´
+C. Wever, “Benchmarking audio fingerprinting implementations for music identification in movies,” 2021.
+[7] J. Guzman, C. Feregrino, A. Menendez-Ortiz, and
+J. J. Garcia-Hernandez, A Robust Audio Fingerprinting
+Method Using Spectrograms Saliency Maps. Dec 2014.
+journalAbbreviation: 2014 9th International Conference
+for Internet Technology and Secured Transactions, ICITST 2014.
+[8] Z. Rafii, B. Coover, and J. Han, “An audio fingerprinting
+system for live version identification using image processing techniques,” in 2014 IEEE International Conference on Acoustics, Speech and Signal Processing
+(ICASSP), p. 644–648, May 2014.
     
 
