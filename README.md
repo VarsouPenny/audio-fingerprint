@@ -161,19 +161,26 @@ Based on our results, we can conclude that on bases with fewer songs the predict
 ### Test evaluation and performance with diffent time queries and distinct noise level
 We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6. We run our test in database with 100 songs.
 #### Results for 1 sec query with different noise levels
-  
+ <table>
+  <tr>
+    <td>Matching 1 sec with noise levels</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=350 height=250></td>
+  </tr>
+  </table>  
   
 #### Results for 2 sec query with different noise levels
  <table>
   <tr>
-    <td>Matching 2sec with noise level 1</td>
-     <td>Matching 2sec with noise level 2</td>
-     <td>Matching 2sec with noise level 3</td>
-  <td>Matching 2sec with noise level 6</td>
+    <td>Matching 2sec with no. 1</td>
+     <td>Matching 2sec with no. 2</td>
+     <td>Matching 2sec with no. 3</td>
+  <td>Matching 2sec with no. 6</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_2sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_2sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_noise_sec_matching.png" width=350 height=250></td>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_2sec.png" width=350 height=250></td>
   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_2sec.png" width=350 height=250></td>
   </tr>
