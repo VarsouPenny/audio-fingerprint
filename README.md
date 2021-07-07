@@ -201,6 +201,7 @@ We created four different kinds of noise, the first one pink noise with level 1,
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_noise_sec_matching.png" width=500 height=500></td>
   </tr>
   </table> 
+  
   #### Results for 5 sec query with different noise levels
   <table>
   <tr>
