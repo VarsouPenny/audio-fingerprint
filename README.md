@@ -166,7 +166,7 @@ We created four different kinds of noise, the first one pink noise with level 1,
     <td>Matching 1 sec with noise levels</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=500 height=500></td>
   </tr>
   </table>  
   
@@ -179,8 +179,8 @@ We created four different kinds of noise, the first one pink noise with level 1,
   <td>Matching 2sec with no. 6</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_noise_sec_matching.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=500 height=500></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_noise_sec_matching.png" width=500 height=500></td>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_2sec.png" width=350 height=250></td>
   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_2sec.png" width=350 height=250></td>
   </tr>
