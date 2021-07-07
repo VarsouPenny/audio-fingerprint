@@ -219,8 +219,19 @@ We also plot the confidence for every different level of noise.
     <td>Confidence for 2 level noise</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_1.png" width=400 height=400></td>
-   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_2.png" width=400 height=400></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_1.png" width=500 height=500></td>
+   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_2.png" width=500 height=500></td>
    
   </tr>
   </table> 
+   <table>
+  <tr>
+    <td>Confidence for 3 level noise</td>
+    <td>Confidence for 3 level noise</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_3.png" width=500 height=500></td>
+   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_6.png" width=500 height=500></td>
+   
+  </tr>
+  </table>
