@@ -156,6 +156,8 @@ In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with dis
 ![Maching 3 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_sec_matching.png)
 ![Maching 4 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_sec_matching.png)
 ![Maching 5 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/5_sec_matching.png)
+
+
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
