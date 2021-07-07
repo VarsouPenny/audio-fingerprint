@@ -152,27 +152,16 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 ### Test evaluation and performance with different time queries
 In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with distinct duration 1sec, 2sec, 3sec, 4sec and 5sec for 100, 490 songs and 1400 songs.<br />
 ![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_sec_matching.png)
-
+![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_sec_matching.png)
+![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_sec_matching.png)
+![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_sec_matching.png)
+![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/5_sec_matching.png)
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
 We created four different kinds of noise, the first one pink noise with level 1, the second pink noise with level 2, the third pink noise with level 3 and the fourth with level 6. We run our test in database with 100 songs.
 #### Results for 1 sec query with different noise levels
-  <table>
-  <tr>
-    <td>Matching 1sec with noise level 1</td>
-     <td>Matching 1sec with noise level 2</td>
-     <td>Matching 1sec with noise level 3</td>
-  <td>Matching 1sec with noise level 6</td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_1sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_1sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_1sec.png" width=350 height=250></td>
-  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_1sec.png" width=350 height=250></td>
-  </tr>
-  </table>
-  <br />
+  
   
 #### Results for 2 sec query with different noise levels
  <table>
