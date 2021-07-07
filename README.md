@@ -227,7 +227,7 @@ We also plot the confidence for every different level of noise.
    <table>
   <tr>
     <td>Confidence for 3 level noise</td>
-    <td>Confidence for 3 level noise</td>
+    <td>Confidence for 6 level noise</td>
   </tr>
   <tr>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_3.png" width=500 height=500></td>
