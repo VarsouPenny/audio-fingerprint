@@ -173,67 +173,41 @@ We created four different kinds of noise, the first one pink noise with level 1,
 #### Results for 2 sec query with different noise levels
  <table>
   <tr>
-    <td>Matching 2sec with no. 1</td>
-     <td>Matching 2sec with no. 2</td>
-     <td>Matching 2sec with no. 3</td>
-  <td>Matching 2sec with no. 6</td>
+    <td>Matching 2 sec with noise levels</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_noise_sec_matching.png" width=500 height=500></td>
     <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_noise_sec_matching.png" width=500 height=500></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_2sec.png" width=350 height=250></td>
-  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_2sec.png" width=350 height=250></td>
   </tr>
-  </table>
+  </table> 
 
   
 #### Results for 3 sec query with different noise levels
- <table>
+  <table>
   <tr>
-    <td>Matching 3sec with noise level 1</td>
-     <td>Matching 3sec with noise level 2</td>
-     <td>Matching 3sec with noise level 3</td>
-  <td>Matching 3sec with noise level 6</td>
+    <td>Matching 3 sec with noise levels</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_3sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_3sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_3sec.png" width=350 height=250></td>
-  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_3sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_noise_sec_matching.png" width=500 height=500></td>
   </tr>
-  </table>
+  </table> 
   
     
 #### Results for 4 sec query with different noise levels
  <table>
   <tr>
-    <td>Matching 4sec with noise level 1</td>
-     <td>Matching 4sec with noise level 2</td>
-     <td>Matching 4sec with noise level 3</td>
-  <td>Matching 4sec with noise level 6</td>
+    <td>Matching 4 sec with noise levels</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_4sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_4sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_4sec.png" width=350 height=250></td>
-  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_4sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_noise_sec_matching.png" width=500 height=500></td>
   </tr>
-  </table>
-  
+  </table> 
   #### Results for 5 sec query with different noise levels
- <table>
+  <table>
   <tr>
-    <td>Matching 5sec with noise level 1</td>
-     <td>Matching 5sec with noise level 2</td>
-     <td>Matching 5sec with noise level 3</td>
-  <td>Matching 5sec with noise level 6</td>
+    <td>Matching 5 sec with noise levels</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_1/matching_perc_5sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_2/matching_perc_5sec.png" width=350 height=250></td>
-    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_3/matching_perc_5sec.png" width=350 height=250></td>
-  <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/results_noise_6/matching_perc_5sec.png" width=350 height=250></td>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/5_noise_sec_matching.png" width=500 height=500></td>
   </tr>
-  </table>
-    
+  </table> 
 According to our results, recognition specifically in cases of noise needs longer query duration.
