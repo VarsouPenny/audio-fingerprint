@@ -227,4 +227,8 @@ Bellow we have an array which summarizes our results.
  
       VALID      11             21              19              22         36.5%
     INVALID      39             29              31              28         63.5%
+    
+    
+ ![Microphone Maching](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/mic_matching.png)
+    
 
