@@ -212,3 +212,15 @@ We created four different kinds of noise, the first one pink noise with level 1,
   </tr>
   </table> 
 According to our results, recognition specifically in cases of noise needs longer query duration.
+We also plot the confidence for every different level of noise.
+ <table>
+  <tr>
+    <td>Confidence for 1 level noise</td>
+    <td>Confidence for 2 level noise</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_1.png" width=400 height=400></td>
+   <td><img src="https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/conf_noise_2.png" width=400 height=400></td>
+   
+  </tr>
+  </table> 
