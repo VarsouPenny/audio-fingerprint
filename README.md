@@ -225,6 +225,6 @@ Bellow we have an array which summarizes our results.
 
               5 secs         10 secs         15 secs         20 secs      TOTALS
  
-      VALID      11             21              19              22            70
-    INVALID      39             29              31              28           127
+      VALID      11             21              19              22         36.5%
+    INVALID      39             29              31              28         63.5%
 
