@@ -152,10 +152,10 @@ Three local MySQL databases were used to store the fingerprintsand their corresp
 ### Test evaluation and performance with different time queries
 In all databases(100 songs, 1000 songs, 5800 songs) we generate queries with distinct duration 1sec, 2sec, 3sec, 4sec and 5sec for 100, 490 songs and 1400 songs.<br />
 ![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/1_sec_matching.png)
-![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_sec_matching.png)
-![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_sec_matching.png)
-![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_sec_matching.png)
-![Maching 1 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/5_sec_matching.png)
+![Maching 2 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/2_sec_matching.png)
+![Maching 3 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/3_sec_matching.png)
+![Maching 4 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/4_sec_matching.png)
+![Maching 5 sec Percentage](https://github.com/VarsouPenny/audio-fingerprint/blob/main/images/5_sec_matching.png)
 Based on our results, we can conclude that on bases with fewer songs the predictions with the shortest time queries were better.<br />
 
 ### Test evaluation and performance with diffent time queries and distinct noise level
